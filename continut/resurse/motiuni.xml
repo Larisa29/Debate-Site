@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<motiuni>
+
+    <motiune id="1">
+        <titlu>CLONAREA UMANĂ AR TREBUI INTERZISĂ</titlu>
+        <topic>Societate</topic>
+        <turneu>PTA 2017</turneu>
+        <localitate>Ploiesti</localitate>
+        <telefon>0734122304</telefon>
+        <judet>Prahova</judet>
+        <tara>România</tara>
+    </motiune>
+      
+    <motiune id="2">
+        <titlu>VÂNĂTOAREA CA SPORT AR TREBUI SĂ FIE INTERZISĂ</titlu>
+        <topic>Sport</topic>
+        <turneu>Saint George:City of Debate</turneu>
+        <localitate>Sfantu Gheorghe</localitate>
+        <telefon>0724333054</telefon>
+        <judet>Covasna</judet>
+        <tara>România</tara>
+    </motiune>
+
+    <motiune id="3">
+        <titlu>GLOBALIZAREA AMENINŢĂ IDENTITATEA NAŢIONALĂ</titlu>
+        <topic>Politică</topic>
+        <turneu>FNDA 2018</turneu>
+        <localitate>Bucuresti</localitate>
+        <telefon>0744433224</telefon>
+        <judet>Bucuresti</judet>
+        <tara>România</tara>
+    </motiune>
+
+      
+</motiuni>

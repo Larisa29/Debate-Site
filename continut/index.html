@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/stil.css"/>
+    <title>Acasă</title>
+    
+    <script src="js/script.js"></script>
+
+</head>
+<body onload="schimbaContinut('acasa')">
+
+<header>
+    <div>
+        <!-- <button class="btn"> Moțiuni</button> -->
+        <button class="btn" id="dezbat" onclick="schimbaContinut('video')"> Dezbateri video</button>        
+    </div>
+</header>
+
+<nav>
+    <img src="imagini\logo_updatat.png">
+    <a onclick="schimbaContinut('acasa')">Acasă</a>
+    <a onclick="schimbaContinut('inregistreaza')">Înregistrare</a>
+    <a onclick="schimbaContinut('despre')">Despre</a>
+    <a onclick="schimbaContinut('invat','js/script.js','getInfo')">Învăț</a>
+    <a onclick="schimbaContinut('motiuni','js/motiuni.js','incarcaMotiuni')">Moțiuni</a>
+    <a onclick="schimbaContinut('desen')">Desen</a>
+    <a onclick="schimbaContinut('verifica')">Verifică</a>
+    <a onclick="schimbaContinut('cumparaturi')">Cumpărături</a>
+
+</nav>
+
+<main id="continut"></main>
+
+<footer id="footer">
+    <hr><p> &copy; 2022 Programare web - Debate or make a cake</p>
+</footer>
+
+</body>
+</html>

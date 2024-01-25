@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE motiuni [
+<!ELEMENT motiuni (motiune+)>
+<!ELEMENT motiune (titlu,topic,turneu,localitate,telefon,judet,tara)>
+<!ELEMENT titlu (#PCDATA)>
+<!ELEMENT topic (#PCDATA)>
+<!ELEMENT turneu (#PCDATA)>
+<!ELEMENT localitate (#PCDATA)>
+<!ELEMENT telefon (#PCDATA)>
+<!ELEMENT judet (#PCDATA)>
+<!ELEMENT tara (#PCDATA)>
+]>
+

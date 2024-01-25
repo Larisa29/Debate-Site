@@ -1,0 +1,61 @@
+<section>
+    <form>
+        <fieldset class="capsula_inregistrare">
+            <label for= "nume">Nume utilizator</label>
+            <input type="text" value="nume complet"><br><br>
+
+            <label for="password">Parola</label>
+            <input type="password"><br><br>
+
+            <label for= "nume">Nume</label>
+            <input type="text" value="nume"><br><br>
+
+            <label for= "prenume">Prenume</label>
+            <input type="text" id="text" value="prenume"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="tel">Telefon:</label>
+            <input type="tel" id="tel" name="tel"><br><br>
+
+            <label for="sex">Sex:</label>
+            <select name = "Sex">
+                <option>Feminim</option>
+                <option>Masculin</option>
+            </select><br><br>
+
+            <label for = "mancare preferata">Mancare preferata:</label>
+            <input list = "mancaruri" name = "mancare" id = "mancare"/>
+            <datalist id = "mancaruri">
+                <option value ="Salata de vinete">
+                <option value = "Pizza">
+                <option value = "Cartofi copti"> 
+                <option value = "Paste">
+                <option value = "Sarmale">
+                <option value = "Ciorba de legume">
+                <option value = "Papanasi">
+                <option value = "Conopida gratinata">
+                <option value = "Omleta cu sunca">
+            </datalist><br><br>
+
+            <label for="varsta">Varsta ta:</label>
+            <input type="range" id="varsta" name="varsta" min="0" max="100"><br><br>
+
+            <label for = "color">Culoarea preferata</label>
+            <input type="color" id = "color" name = "color" value ="#FFC0CB"><br><br>
+
+            <label for="time">Ora nasterii:</label>
+            <input type="time" id="time" name="time" min="00:00" max="23:59" required><br><br>
+
+            <label for="homepage">Adresa paginii personale:</label>
+            <input type="url" id="homepage" name="homepage"><br><br>
+
+            <label for="descriere">Descriere personala</label>
+            <textarea id="descriere personala" name="descriere personala" rows="5" cols="35">Descrierea mea...</textarea><br><br>
+
+            <input type="button" disabled value="Inregistreaza">
+
+        </fieldset>
+    </form>
+</section>

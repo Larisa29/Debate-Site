@@ -1,0 +1,471 @@
+body{
+    background: #f0f0ed;
+    /* #d8bacb */
+
+} 
+
+.fundal{
+    position: relative;
+    background: #696969;
+    overflow: hidden;
+}
+
+
+.fundal img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    opacity: 0.5;
+} 
+
+nav {
+	position: fixed;
+    display: flex;
+	background-color: #242527;
+	top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+nav a {
+  background-color: #242527;
+  display: inline-block;
+  font-size: 20px;
+  font-family:"Fantasy";
+  font-weight: bold;
+  color:white;
+  padding: 7px;
+}
+
+nav img {
+    width: 60%;
+    display: block;
+    margin-right: 10px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+nav ul{
+    list-style-type: none;
+   
+}
+
+nav>a{
+    text-decoration: none;
+}
+
+nav>a:hover{
+    font-weight: bold;
+}
+
+a:hover{
+    color:#7C5B8C;
+}
+/*partea de galerie foto din index.html*/
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+  }
+
+.semnat{
+margin-top: 20px;
+float: right;
+}
+
+/*pseudoelement*/
+::marker{
+    color : #7C5B8C;
+}
+/*daca selectez ceva, atunci are culorile specificate*/
+::selection {
+    color: #0624B1;
+    background: #ECE9E9;
+    border:2px solid
+  }
+
+/* pseudoclasa*/
+input:focus{
+    border:4px solid #1c54bc;
+}
+/* ca sa fie totul la o distanta fata de <nav> */
+main{
+    margin-left: 270px;
+}
+
+body {
+    margin: 0px;
+}
+
+header{
+   margin-left: 240px;
+   background-image: url('https://media.npr.org/assets/img/2019/06/25/hsieh_angela_politics_demdebates_4_wide-b95725ea33c44fdb70df3f1da0470f23c9d8b6d5-s900-c85.webp');
+   background-size: cover;
+   position: relative;
+   width: calc(100% - 240px);
+   height: 400px;
+   margin-bottom: 70px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+    table-layout:fixed;
+    width: 90%;
+}
+
+th, td{
+    border-bottom:1px solid black;
+    text-align: left;
+    padding: 6px;    
+
+}
+
+#footer{
+    margin-left:260px;
+    margin-top: 150px;
+}
+
+.capsula_inregistrare{
+    width: 600px;
+    height: 700px;
+    background-color: #7C5B8C;
+    border-radius: 50px;
+    padding-left:50px;
+    padding-top:50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#formular_initial{
+    width: 300px;
+    height: 240px;
+    background-color: #7C5B8C;
+    border-radius: 50px;
+    padding-left:50px;
+    padding-top:50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*selecteaza randurile cu index par ale tabelului parinte */
+tr:nth-child(even){
+    background-color: #D68786;
+    color: #242527;
+}
+
+tr:nth-child(odd){
+    background-color: #7C5B8C;
+}
+
+/*vreau o nuanta mai inchisa cand acopar randul cu mouse ul*/
+tr:hover {
+    background-color: #DFDEDE;
+}
+
+h1{
+    text-shadow: 0 0 6px #7C5B8C;
+}
+  
+.coloana {
+    float: left;
+    width: 33.33%;
+}
+
+  /*pt galeria de video uri*/
+.flex-box{
+    height: 320px; 
+    display: flex;
+    justify-content: space-evenly;
+}
+.flex-box-1{
+    margin-top: 80px;
+    height: 620px; 
+    display: flex;
+    justify-content: space-evenly;
+}
+#v1{
+    width: 440px;
+    height: 320px;
+    top:270px;
+    border-radius: 100px;
+}
+
+#v2{
+    width: 440px;
+    height: 320px;
+    top:270px;
+    border-radius: 50px;
+}
+
+#v3{
+    width: 440px;
+    height: 320px;
+    top:270px;
+    border-radius: 90px;
+}
+
+#v4{
+    width: 440px;
+    height: 520px;
+    margin-top:50px;
+    border-radius: 90px;
+}
+
+#v5{
+    width: 440px;
+    height: 520px;
+    margin-top:50px;
+    border-radius: 90px;
+}
+.tooltip{
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext{
+    visibility: hidden;
+    width: 250px;
+    background-color: #aa2941;
+    color: #DFDEDE;
+    text-align: center;
+    border-radius:8px ;
+    padding: 5px 0px;
+/* pozitie pt tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 70%;
+
+ /* dureaza 2sec pt a ajunge de la 0% opacitate la 100% */
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+    }
+
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+}
+
+  
+@media screen and (max-width: 700px) {
+    nav {
+        background-color: #b1628c;
+    }
+
+}
+
+aside>a {
+    display:flex;
+    color: black;
+    padding-top: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+aside>a:hover {
+    color: red;
+}
+
+
+.btn {
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center; 
+    position: relative;
+    overflow: hidden;
+}
+
+.btn:hover {
+  box-shadow: 1px 1px 25px 10px white;
+}
+
+.btn:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    pink,
+    transparent
+  );
+  transition: all 650ms;
+}
+
+.btn:hover:before {
+  left: 100%;
+}
+/*imaginile din pagina acasa.html*/
+div .coloana img{
+    border-radius: 80px;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    color: white;
+}
+/*tabel pro si contra pt motiuni*/
+.pros-cons-container {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    max-width: 1500px;
+    margin-top: 20px ;
+    box-shadow: 0 4px 16px -4px rgba(0, 0, 0, 0.4);
+  }
+  
+  .pros-cons-container .heading {
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 16px 24px;
+  }
+  
+  .pros-cons-container .pros-container .heading {
+    background: #8C3F67;
+  }
+  
+  .pros-cons-container .cons-container .heading {
+    background: #AA2941;
+  }
+  
+  .pros-cons-container .pros-container ul li::before {
+    font-weight: bold;
+    padding-right: 16px;
+    color: #FFC748;
+    display: block;
+  }
+  
+  .pros-cons-container .cons-container ul li::before {
+    font-weight: bold;
+    padding-right: 16px;
+    color: #FFC748;
+    display: block;
+  }
+  
+  .pros-cons-container .pros-container,
+  .pros-cons-container .cons-container {
+    flex: 1;
+  }
+  
+  .pros-cons-container .pros {
+    border-right: 1px solid #eee;
+  }
+  
+  .pros-cons-container ul {
+    padding: 8px 0;
+    list-style: none;
+    margin: 0;
+  }
+  
+  .pros-cons-container ul li {
+    padding: 16px 32px;
+    font-size: 16px;
+    line-height: 2;
+    display: flex;
+  }
+
+  div.sectiune_verificare{
+    width: 800px;
+    height: 400px;
+    margin-left: 300px;
+    position: relative;
+    background-color: #7C5B8C;
+    border-radius: 80px;
+    font-size: 0.6cm;
+    opacity: 6.1;
+}
+
+#utilizator_label{
+    color:#FFFFFF;
+    position:relative;
+    font-family:monospace;
+    font-style:italic;
+    font-size: 0.7cm;
+    top: 30px;
+    margin-left: 200px;
+}
+
+#utilizator_input{
+    background-color: #d8bacb;
+    width: 270px;
+    height: 25px;
+    border-radius: 60px;
+    position:relative;
+    color:white;
+    top: 40px;
+    margin-left: 100px;
+    font-size: 0.8cm;
+    padding: 10px 20px 15px 10px;
+    font-style: italic;
+}
+
+#parola_label{
+    color:#FFFFFF;
+    position:relative;
+    font-family:monospace;
+    font-style:italic;
+    font-size: 0.7cm;
+    top: 60px;
+    margin-left: 200px;
+}
+
+#parola_input{
+    background-color: #d8bacb;
+    width: 270px;
+    height: 25px;
+    border-radius: 60px;
+    position:relative;
+    color:white;
+    top: 70px;
+    margin-left: 100px;
+    font-size: 0.7cm;
+    padding: 10px 20px 15px 10px;
+    font-style: italic;
+}
+
+#autentif_button{
+    width: 200px;
+    background-color:#aa2941;
+    color:white;
+    font-size: 0.8cm;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 120px;
+    position:absolute;
+    top:309px;
+    left:500px;
+}
+
+
+div.sectiune_cumparaturi{
+    width: 800px;
+    height: 400px;
+    margin-left: 300px;
+    position: relative;
+    background-color: #7C5B8C;
+    border-radius: 80px;
+    font-size: 0.6cm;
+    opacity: 6.1;
+
+}
